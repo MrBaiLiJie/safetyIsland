@@ -1,0 +1,66 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/weChartLogin/weChartLogin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/specialTraining/specialTrainingList",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "专项培训",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":true
+            }
+            
+        }
+        ,{
+            "path" : "pages/specialTraining/specialTrainingListDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "专项培训详情",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh":false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#666",
+		"selectedColor":"#ff5a5f",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/img/home.png",
+				"selectedIconPath":"static/img/home-active.png"
+			},{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/img/my.png",
+				"selectedIconPath":"static/img/my-active.png"
+			}
+		]
+	}
+}
