@@ -3,7 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "1"
 			}
 		}, {
 			"path": "pages/weChartLogin/weChartLogin",
@@ -38,6 +39,17 @@
             }
             
         }
+        ,{
+            "path" : "pages/employeeBarometer/employeeBarometer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工晴雨表",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh":false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -46,20 +58,20 @@
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar":{
-		"color":"#666",
-		"selectedColor":"#ff5a5f",
+		"color":"#2C2C2C",
+		"selectedColor":"#399AF6",
 		"borderStyle":"black",
 		"list":[
 			{
 				"pagePath":"pages/index/index",
 				"text":"首页",
-				"iconPath":"static/img/home.png",
-				"selectedIconPath":"static/img/home-active.png"
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home-active.png"
 			},{
 				"pagePath":"pages/my/my",
 				"text":"我的",
-				"iconPath":"static/img/my.png",
-				"selectedIconPath":"static/img/my-active.png"
+				"iconPath":"static/tabbar/my.png",
+				"selectedIconPath":"static/tabbar/my-active.png"
 			}
 		]
 	}
