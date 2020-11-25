@@ -3,14 +3,14 @@
 		<view class="uni-tab-bar">
 			<swiper class="ct_tab" :current="current">
 				<swiper-item :class="{ 'ct_active': index == current }" v-for="(item, index) in safeTrainingList" :key="index"
-				 class="ct_item" @click="clickCtTab(index)">
+				 class="ct_item" @tap="clickCtTab(index)">
 					<text v-text="item.name" class="tabText"></text>
 				</swiper-item>
 			</swiper>
-			
+
 		</view>
 		<view class="tabContent">
-			<view class="tabContentList" v-for="(itemOne, indexOne) in tabContentList" :key="indexOne">
+			<view class="tabContentList" v-for="(itemOne, indexOne) in tabContentList" :key="indexOne" @tap="openDetail()">
 				<view class="leftImg">
 					<image :src="itemOne.image"></image>
 				</view>
@@ -48,30 +48,34 @@
 						name: "安全培训6",
 					}
 				],
-				tabContentList: [
-					{
-						name: "安全培训安全培训安全培训1",
-						title: "安全培训1学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习",
-						image: "../../static/img/specialTraining/list1.png"
-					},
-				]
+				tabContentList: [{
+					name: "安全培训安全培训安全培训1",
+					title: "安全培训1学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习学习",
+					image: "../../static/img/specialTraining/list1.png"
+				}, ]
 			}
 		},
 		methods: {
 			clickCtTab(ctCur) {
 				this.current = ctCur
+			},
+			openDetail() {
+				uni.navigateTo({
+					url: './specialTrainingListDetail'
+				})
 			}
 		}
 	}
 </script>
 
 <style lang="scss">
-	page{
+	page {
 		height: 100% !important;
 	}
-	.view{
+	.view {
 		height: 100%;
 	}
+
 	.ct_tab {
 		width: 698rpx;
 		height: 150rpx;
@@ -91,7 +95,7 @@
 		}
 
 		swiper-item {
-			width: 150rpx !important;
+			width: 160rpx !important;
 		}
 	}
 
@@ -100,11 +104,12 @@
 	}
 
 	.ct_item:nth-child(n+2) {
-		padding-left: 47rpx;
+		margin-left: 48rpx;
 	}
 
 	.ct_active {
 		color: #007AFF;
+
 		text {
 			// border-bottom: 2rpx solid #399AF6;
 			color: #399AF6;
@@ -124,41 +129,48 @@
 		margin: auto;
 		background: #399AF6;
 	}
-	.tabContent{
+
+	.tabContent {
 		height: 100%;
 		background: #f4f4f4;
-		.tabContentList{
+
+		.tabContentList {
 			width: 686rpx;
 			height: 307rpx;
 			background: #FFFFFF;
 			border-radius: 20rpx;
 			float: left;
 			margin: 21rpx 32rpx 21rpx 32rpx;
-			.leftImg{
+
+			.leftImg {
 				height: 238rpx;
 				width: 279rpx;
 				float: left;
 				margin: 39rpx auto 30rpx 40rpx;
-				image{
+
+				image {
 					width: 100%;
-					height:100%;
-				}	
+					height: 100%;
+				}
 			}
-			.rightText{
+
+			.rightText {
 				width: 279rpx;
 				float: left;
 				margin: 45rpx auto 30rpx 40rpx;
-				.title{
+
+				.title {
 					width: 100%;
 					font-size: 36rpx;
 					font-family: PingFang SC;
 					font-weight: 300;
 					color: #090909;
 					overflow: hidden;
-					text-overflow:ellipsis;
+					text-overflow: ellipsis;
 					white-space: nowrap;
 				}
-				.text{
+
+				.text {
 					width: 100%;
 					margin-top: 24rpx;
 					font-size: 28rpx;
@@ -171,7 +183,7 @@
 					overflow: hidden;
 				}
 			}
-			
+
 		}
 	}
 </style>

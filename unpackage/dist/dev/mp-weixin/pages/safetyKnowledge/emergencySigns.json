@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "应急标识",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

@@ -47,13 +47,13 @@ page {
   width: 100%;
 }
 .ct_tab swiper-item {
-  width: 150rpx !important;
+  width: 160rpx !important;
 }
 .ct_item:nth-child(1) {
   margin-left: 41rpx;
 }
 .ct_item:nth-child(n+2) {
-  padding-left: 47rpx;
+  margin-left: 48rpx;
 }
 .ct_active {
   color: #007AFF;

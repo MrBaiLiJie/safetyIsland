@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "数据统计",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-ec-canvas": "/components/uni-ec-canvas/uni-ec-canvas"
+  }
+}

@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationStyle":"custom",
+				"navigationStyle": "custom",
 				"navigationBarTitleText": "1"
 			}
 		}, {
@@ -15,18 +15,18 @@
 
 		}, {
 			"path": "pages/my/my",
-			"style": {}
-		}
-	    ,{
-            "path" : "pages/specialTraining/specialTrainingList",
-            "style" :                                                                                    
-            {
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "1"
+			}
+		}, {
+			"path": "pages/specialTraining/specialTrainingList",
+			"style": {
 				"navigationBarTitleText": "专项培训",
 				"navigationBarBackgroundColor": "#ffffff",
 				"navigationBarTextStyle": "black",
 				"enablePullDownRefresh":true
             }
-            
         }
         ,{
             "path" : "pages/specialTraining/specialTrainingListDetail",
@@ -38,15 +38,343 @@
                 "enablePullDownRefresh":false
             }
             
-        }
+        },
+		{
+            "path" : "pages/caseWarning/caseWarning",
+            "style" : {
+				"navigationBarTitleText": "案例警示",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+        },
+		{
+		    "path" : "pages/caseWarning/caseList",
+		    "style" : {
+				"navigationBarTitleText": "事故案例",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+		    "path" : "pages/caseWarning/caseWarnDetail",
+		    "style" : {
+				"navigationBarTitleText": "详情页",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+		    "path" : "pages/caseWarning/caseSub",
+		    "style" : {
+				"navigationBarTitleText": "总结上报",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+		    "path" : "pages/caseWarning/caseSubList",
+		    "style" : {
+				"navigationBarTitleText": "上报记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+		},
+		{
+		    "path" : "pages/caseWarning/caseSubDetail",
+		    "style" : {
+				"navigationBarTitleText": "上报记录详情",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh":false
+			}
+		}
         ,{
-            "path" : "pages/employeeBarometer/employeeBarometer",
+            "path" : "pages/emergencyDrill/emergencyDrill",
+            "style" : {
+				"navigationBarTitleText": "应急演练",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/emergencyDrill/emergencyMultipleSub",
+			"style": {
+				"navigationBarTitleText": "综合类反馈",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/emergencyDrill/emergencySpecialSub",
+			"style": {
+				"navigationBarTitleText": "专项类反馈",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/emergencyDrill/emergencyList",
+			"style": {
+				"navigationBarTitleText": "应急演练反馈记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/emergencyDrill/emergencyDetail",
+			"style": {
+				"navigationBarTitleText": "应急演练反馈记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/employeeBarometer/employeeBarometer",
+			"style": {
+				"navigationBarTitleText": "员工晴雨表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/employeeBarometer/employeeBarometerEditor",
+			"style": {
+				"navigationBarTitleText": "员工晴雨表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/employeeBarometer/employeeBarometerList",
+			"style": {
+				"navigationBarTitleText": "员工晴雨表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/employeeSafetyStatus/employeeSafetyStatus",
+			"style": {
+				"navigationBarTitleText": "员工安全状态",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/employeeSafetyStatus/employeeSafetyStatusDetail",
+			"style": {
+				"navigationBarTitleText": "员工安全状态",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/dataStatistics/teamScore",
+			"style": {
+				"navigationBarTitleText": "班组评分",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/dataStatistics/dataStatistics",
+			"style": {
+				"navigationBarTitleText": "数据统计",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/safetyKnowledge/safetyKnowledge",
+			"style": {
+				"navigationBarTitleText": "安全知识",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyKnowledge/lawsAndRegulations",
+			"style": {
+				"navigationBarTitleText": "法律法规",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyKnowledge/safetyCommonSense",
+			"style": {
+				"navigationBarTitleText": "安全常识",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyKnowledge/emergencySigns",
+			"style": {
+				"navigationBarTitleText": "应急标识",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyKnowledge/personalProtection",
+			"style": {
+				"navigationBarTitleText": "个体防护",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyKnowledge/safeKnowledgeDetail",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/dataStatistics/employeesScore",
+			"style": {
+				"navigationBarTitleText": "员工评分",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/dataStatistics/employeesQy",
+			"style": {
+				"navigationBarTitleText": "员工晴雨表",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/personalInformation",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/safetyInspection/safetyInspection",
+			"style": {
+				"navigationBarTitleText": "安全巡检",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyInspection/teamSub",
+			"style": {
+				"navigationBarTitleText": "班组安全巡检",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyInspection/staffSub",
+			"style": {
+				"navigationBarTitleText": "员工安全巡检",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyInspection/safetyList",
+			"style": {
+				"navigationBarTitleText": "班组巡检记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/safetyInspection/safetyDetail",
+			"style": {
+				"navigationBarTitleText": "班组巡检记录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/my/changePassword",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "员工晴雨表",
+                "navigationBarTitleText": "修改密码",
                 "navigationBarBackgroundColor": "#ffffff",
                 "navigationBarTextStyle": "black",
-                "enablePullDownRefresh":false
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/systemMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息通知",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/integralRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分记录",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/gcClosed",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关差闭环",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/gcClosedNext",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关差闭环",
+                "navigationBarBackgroundColor": "#ffffff",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
             }
             
         }
@@ -57,22 +385,20 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"tabBar":{
-		"color":"#2C2C2C",
-		"selectedColor":"#399AF6",
-		"borderStyle":"black",
-		"list":[
-			{
-				"pagePath":"pages/index/index",
-				"text":"首页",
-				"iconPath":"static/tabbar/home.png",
-				"selectedIconPath":"static/tabbar/home-active.png"
-			},{
-				"pagePath":"pages/my/my",
-				"text":"我的",
-				"iconPath":"static/tabbar/my.png",
-				"selectedIconPath":"static/tabbar/my-active.png"
-			}
-		]
+	"tabBar": {
+		"color": "#2C2C2C",
+		"selectedColor": "#399AF6",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/home-active.png"
+		}, {
+			"pagePath": "pages/my/my",
+			"text": "我的",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/my-active.png"
+		}]
 	}
 }

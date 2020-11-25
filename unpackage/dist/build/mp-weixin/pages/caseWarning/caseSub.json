@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "总结上报",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

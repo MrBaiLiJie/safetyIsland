@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "员工晴雨表",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

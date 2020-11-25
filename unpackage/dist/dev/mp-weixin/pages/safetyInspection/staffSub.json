@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "员工安全巡检",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "员工安全状态",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

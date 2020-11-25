@@ -1,3 +1,5 @@
 {
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "1",
   "usingComponents": {}
 }

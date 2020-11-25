@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "班组巡检记录",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

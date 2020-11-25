@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "班组安全巡检",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "easy-upload": "/components/easy-upload/easy-upload",
+    "img-upload": "/components/poiuy-uImgUpload/imgUpload"
+  }
+}

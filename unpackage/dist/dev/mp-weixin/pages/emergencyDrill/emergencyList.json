@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "应急演练反馈记录",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

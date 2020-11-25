@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "上报记录",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

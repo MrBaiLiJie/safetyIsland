@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weChartLogin/weChartLogin",
+    "pages/my/my",
+    "pages/specialTraining/specialTrainingList",
+    "pages/specialTraining/specialTrainingListDetail",
+    "pages/caseWarning/caseWarning",
+    "pages/caseWarning/caseList",
+    "pages/caseWarning/caseWarnDetail",
+    "pages/caseWarning/caseSub",
+    "pages/caseWarning/caseSubList",
+    "pages/caseWarning/caseSubDetail",
+    "pages/emergencyDrill/emergencyDrill",
+    "pages/emergencyDrill/emergencyMultipleSub",
+    "pages/emergencyDrill/emergencySpecialSub",
+    "pages/emergencyDrill/emergencyList",
+    "pages/emergencyDrill/emergencyDetail",
+    "pages/employeeBarometer/employeeBarometer",
+    "pages/employeeBarometer/employeeBarometerEditor",
+    "pages/employeeBarometer/employeeBarometerList",
+    "pages/employeeSafetyStatus/employeeSafetyStatus",
+    "pages/employeeSafetyStatus/employeeSafetyStatusDetail",
+    "pages/dataStatistics/teamScore",
+    "pages/dataStatistics/dataStatistics",
+    "pages/safetyKnowledge/safetyKnowledge",
+    "pages/safetyKnowledge/lawsAndRegulations",
+    "pages/safetyKnowledge/safetyCommonSense",
+    "pages/safetyKnowledge/emergencySigns",
+    "pages/safetyKnowledge/personalProtection",
+    "pages/safetyKnowledge/safeKnowledgeDetail",
+    "pages/safetyInspection/safetyInspection",
+    "pages/safetyInspection/teamSub",
+    "pages/safetyInspection/staffSub",
+    "pages/safetyInspection/safetyList",
+    "pages/safetyInspection/safetyDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#2C2C2C",
+    "selectedColor": "#399AF6",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

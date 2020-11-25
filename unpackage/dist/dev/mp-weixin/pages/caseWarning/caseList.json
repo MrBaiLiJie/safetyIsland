@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "事故案例",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

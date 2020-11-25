@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "案例警示",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

@@ -26,7 +26,7 @@
 					<image class="news-icon-img" src="../../static/index/news-tip.png"></image>
 				</view>
 				<swiper class="swiper " vertical="true" autoplay="false" duration="200" interval="2000">
-					<swiper-item class="news-wrap" v-for="(item, index) in msg" :key="index">
+					<swiper-item class="news-wrap" v-for="(item,index) in msg" :key="index">
 						<text class="news-text">消息消息消息消息消息消息消息消息消息消息消息消息
 						</text>
 						<view class="news-label">NEW</view>
@@ -43,7 +43,7 @@
 					</view>
 					<view class="index-list-tit-right">更多></view>
 				</view>
-				<view class="safeTrain-list" v-for="item in safeTrainList">
+				<view class="safeTrain-list" v-for="(item,index) in safeTrainList" :key="index">
 					<view class="list-img">
 						<image class="news-icon-img" :src="item.img"></image>
 					</view>
@@ -61,7 +61,7 @@
 					<view class="index-list-tit-right">更多></view>
 				</view>
 				<view class="trouble-list">
-					<view class="trouble-list-wrap" v-for="item in troubleList">
+					<view class="trouble-list-wrap" v-for="(item,index) in troubleList" :key="index">
 						<view class="trouble-list-item">
 							<view class="list-img">
 								<image class="news-icon-img" :src="item.img"></image>
@@ -95,26 +95,26 @@
 						{
 							src: '/static/index/module2.png',
 							name: '案例警示',
-							url: "/pages/home/release"
+							url: "/pages/caseWarning/caseWarning"
 						},
 						{
 							src: '/static/index/module3.png',
 							name: '应急演练',
-							url: "/pages/home/release"
+							url: "/pages/emergencyDrill/emergencyDrill"
 						}, {
 							src: '/static/index/module4.png',
 							name: '安全知识',
-							url: "/pages/home/release"
+							url: "/pages/safetyKnowledge/safetyKnowledge"
 						},
 						{
 							src: '/static/index/module5.png',
 							name: '数据统计',
-							url: "/pages/home/release"
+							url: "/pages/dataStatistics/dataStatistics"
 						},
 						{
 							src: '/static/index/module6.png',
 							name: '员工晴雨表',
-							url: "/pages/home/release",
+							url: "/pages/employeeBarometer/employeeBarometer",
 						},
 						{
 							src: '/static/index/module7.png',
@@ -124,7 +124,7 @@
 						{
 							src: '/static/index/module8.png',
 							name: '安全巡检',
-							url: "/pages/home/release"
+							url: "/pages/safetyInspection/safetyInspection"
 						}, {
 							src: '/static/index/module9.png',
 							name: '班前会',
@@ -133,7 +133,7 @@
 						{
 							src: '/static/index/module10.png',
 							name: '安全状态',
-							url: "/pages/home/release"
+							url: "/pages/employeeSafetyStatus/employeeSafetyStatus"
 						}
 					]
 				}],
@@ -191,7 +191,7 @@
 
 <style lang="scss">
 	page {
-		background-color: #F4F4F4;
+		background-color: $bg-color;
 	}
 
 	.swiper-content {
@@ -244,7 +244,7 @@
 			/*水平居中*/
 			margin: 19rpx 4rpx 14rpx 4rpx;
 			height: 64rpx;
-			background-color: #FFFFFF;
+			background-color: $list-color;
 			border-radius: 26rpx;
 
 			.news-icon {
@@ -291,14 +291,14 @@
 	.index-module {
 		margin-bottom: 22rpx;
 		padding: 0rpx 8rpx 20rpx 8rpx;
-		background-color: #ffffff;
+		background-color: $list-color;
 		border-radius: 26rpx;
 	}
 
 	.index-list {
 		padding-bottom: 26rpx;
 		margin-bottom: 22rpx;
-		background-color: #ffffff;
+		background-color: $list-color;
 		border-radius: 26rpx;
 
 		.index-list-tit {
@@ -364,7 +364,7 @@
 				.list-right-text {
 					color: #9A9A9A;
 					font-size: 28rpx;
-					@include text-ellipsis-three();
+					@include text-ellipsis-four();
 				}
 			}
 		}

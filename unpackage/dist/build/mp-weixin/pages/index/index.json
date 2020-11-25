@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "1",
+  "usingComponents": {
+    "sw-grid": "/components/sw-grid/sw-grid"
+  }
+}

@@ -8,7 +8,11 @@
   },
   "compileType": "miniprogram",
   "libVersion": "",
+<<<<<<< HEAD
+  "appid": "touristappid",
+=======
   "appid": "wx2d324549e7f780e8",
+>>>>>>> 4288fb6a3d0d833b65cad3b2a98c5b44c355b3a7
   "projectname": "safeIslandWeb",
   "condition": {
     "search": {
